@@ -1,0 +1,152 @@
+
+
+a{
+
+text-decoration: none;
+
+}
+
+a:hover {
+    opacity: 0.8;
+    font-weight: 400;
+    color: #2d1188;
+}
+
+h1 {
+
+    padding-top: 20px;
+    color:rgb(8, 156, 198)
+}
+
+
+.list-container {
+
+
+    width: 400px;
+    height: auto;
+    box-sizing: border-box;
+    margin:60px 0 0 0;
+    background-color: rgb(240, 240, 240);
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   border-radius: 5px;
+
+}
+
+.input{
+
+    width: 250px;
+    height: 40px;
+    border: 0;
+    outline: 0;
+    padding: 0px 10px;
+}
+
+
+
+.item {
+    
+    width: 100%;
+    padding: 20px 0 20px 0;
+
+}    
+
+.list-items-container{
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+  
+}
+
+.items-wrap{
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 30px;
+    width: 100%;
+    
+
+}
+
+
+
+      
+
+
+.btn-add{
+
+padding: 10px 15px;
+background-color: #33c0db;
+border: 0;
+color:white;
+cursor: pointer;
+}
+
+
+
+.btn-add:hover{
+
+   
+    background-color: #05b3d6;
+ 
+    }
+    
+
+
+.buttons {
+ 
+    display: flex;
+   justify-content:flex-end;
+   align-items: center;
+   width: 100px;
+
+}
+
+.checkbox{  
+
+width: 25px;
+height: 25px;
+outline: 0;
+border: 0;
+
+
+}
+.delete-btn{
+
+
+    width: 25px;
+    height: 25px;
+    background-color: #33c0db;
+    color: #ffffff;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+
+}
+
+
+
+.delete-btn:hover{
+
+   
+    background-color: #05b3d6;
+ 
+    }
+    
+
+
+
+
+.checked{
+
+text-decoration: line-through;
+
+}
+
